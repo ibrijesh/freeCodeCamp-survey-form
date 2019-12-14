@@ -2,4 +2,119 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  color: #ffff;
+  font-family: 'Courier New', Courier, monospace;
+  background: #ffff;
+  background-image: url("../img/backgound.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 23%;
+}
+
+body label,
+body input {
+  margin: 0.25rem 0;
+}
+
+body textarea {
+  margin: 0.5rem 0;
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body label {
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body input {
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body i {
+  font-size: 15px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body .survey-form-body {
+  opacity: 0.985;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body .survey-form-body .survey-description {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+body .survey-form-body .survey-description h1 {
+  margin: 0.3rem;
+}
+
+body .survey-form-body .survey-description p {
+  font-size: 20px;
+}
+
+body .survey-form-body #survey-form-container {
+  padding: 5% 7%;
+  background: #3c3d47;
+  color: #ffff;
+}
+
+body .survey-form-body #survey-form-container .form-group {
+  margin: 1.5rem 0;
+}
+
+body .survey-form-body #survey-form-container .form-group .info-input {
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2rem;
+}
+
+body .survey-form-body #survey-form-container .form-group #dropdown {
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2.5rem;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body .survey-form-body #survey-form-container .form-group #dropdown option {
+  font-size: 17px;
+}
+
+body .survey-form-body #survey-form-container .form-group .radio-group {
+  font-size: 20px;
+}
+
+body .survey-form-body #survey-form-container .form-group .radio-group input {
+  margin-top: 1rem;
+}
+
+body .survey-form-body #survey-form-container .form-group .checkbox-group {
+  font-size: 20px;
+}
+
+body .survey-form-body #survey-form-container .form-group .checkbox-group input {
+  margin-top: 1rem;
+}
+
+body .survey-form-body #survey-form-container .form-group .text-area {
+  margin-top: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+}
+
+body .survey-form-body #survey-form-container .form-group .button .btn {
+  width: 100%;
+  height: 3rem;
+  background: #5f4444;
+  text-decoration: none;
+  color: #ffff;
+  border: #ffff solid 0.5px;
+  color: inherit;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
