@@ -143,6 +143,7 @@ body .survey-form-body #survey-form-container .form-group .button .btn {
   text-decoration: none;
   border: none;
   color: #ffff;
+  border: #ffff solid 0.5px;
   color: inherit;
   font-size: 18px;
 }
@@ -150,7 +151,7 @@ body .survey-form-body #survey-form-container .form-group .button .btn {
 body .survey-form-body #survey-form-container .form-group .button .btn:hover {
   width: 100%;
   height: 3rem;
-  background: #913535;
+  background: #c72c41;
   text-decoration: none;
   border: none;
   color: #ffff;
