@@ -8,6 +8,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   background: #ffff;
   background-image: url("../img/background2.jpg");
+  background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +42,7 @@ body i {
 }
 
 body .overlay {
+  opacity: 0.7;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -50,13 +52,12 @@ body .overlay {
   width: 100%;
   height: 100%;
   background: #5a3921;
-  opacity: 0.68;
 }
 
 body .survey-form-body {
   position: relative;
   z-index: 2;
-  opacity: 0.9;
+  opacity: 0.92;
   font-family: 'Fira Sans', sans-serif;
 }
 
@@ -94,12 +95,6 @@ body .survey-form-body #survey-form-container .form-group .info-input {
 }
 
 body .survey-form-body #survey-form-container .form-group .info-input:hover {
-  margin: 0.5rem 0;
-  width: 100%;
-  height: 2rem;
-  outline: none;
-  border: none;
-  background: transparent;
   border-bottom: #b2dffb solid 2px;
 }
 
@@ -115,7 +110,7 @@ body .survey-form-body #survey-form-container .form-group #dropdown option {
 }
 
 body .survey-form-body #survey-form-container .form-group .radio-group {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body .survey-form-body #survey-form-container .form-group .radio-group input {
@@ -123,7 +118,7 @@ body .survey-form-body #survey-form-container .form-group .radio-group input {
 }
 
 body .survey-form-body #survey-form-container .form-group .checkbox-group {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body .survey-form-body #survey-form-container .form-group .checkbox-group input {
@@ -149,9 +144,7 @@ body .survey-form-body #survey-form-container .form-group .button .btn {
 }
 
 body .survey-form-body #survey-form-container .form-group .button .btn:hover {
-  width: 100%;
-  height: 3rem;
-  background: #c72c41;
+  background: #da2d2d;
   text-decoration: none;
   border: none;
   color: #ffff;
