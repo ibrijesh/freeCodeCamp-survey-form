@@ -1,0 +1,35 @@
+@media screen and (max-width: 800px) {
+
+    body .survey-form-body{
+        height: 100%;
+        min-width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    body{
+        background: none;
+        background-color: #222831;
+    }
+
+    body .overlay{
+        display: none;
+    }
+    body .survey-form-body{
+        height: 100%;
+        min-width: 100%;
+    }
+
+    body .survey-form-body .survey-description{
+        font-size: 12px;
+    }
+
+    
+    body .survey-form-body .survey-description p{
+        font-size: 15px;
+    }
+
+}
